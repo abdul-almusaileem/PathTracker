@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSMotionUsageDescription</key>
+	<string>In order to count steps I need an access to your pedometer</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>the app wants to use the current location</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>the app wants to use the current location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>the app wants to use the current location</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
