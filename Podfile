@@ -9,4 +9,5 @@ target 'Path Tracker' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
   pod 'RealmSwift', '~> 3.7.1'
+  pod 'Firebase/Core'
 end

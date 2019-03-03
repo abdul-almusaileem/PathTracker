@@ -11,6 +11,7 @@
 		F040948721A2789C00779D0C /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F040948621A2789C00779D0C /* HistoryVC.swift */; };
 		F040948921A4A87B00779D0C /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = F040948821A4A87B00779D0C /* Path.swift */; };
 		F0569B8121A5298300C4CB71 /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0569B8021A5298300C4CB71 /* Pedometer.swift */; };
+		F0A90AF2222BDD7400FD2B74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0A90AF1222BDD7400FD2B74 /* GoogleService-Info.plist */; };
 		F0BD697C21CCDB3F00DDAE17 /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD697B21CCDB3F00DDAE17 /* Pedometer.swift */; };
 		F0BD697E21CCDBD000DDAE17 /* WalkedPathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD697D21CCDBD000DDAE17 /* WalkedPathVC.swift */; };
 		F0BD698221CCF3DA00DDAE17 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD698121CCF3DA00DDAE17 /* SettingVC.swift */; };
@@ -28,6 +29,7 @@
 		F040948621A2789C00779D0C /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		F040948821A4A87B00779D0C /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		F0569B8021A5298300C4CB71 /* Pedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pedometer.swift; path = "/Users/Abdul./Desktop/7amanga/Code/ios/projects/Path Tracker/Path Tracker/Pedometer.swift"; sourceTree = "<absolute>"; };
+		F0A90AF1222BDD7400FD2B74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0BD697B21CCDB3F00DDAE17 /* Pedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pedometer.swift; path = "/Users/Abdul./Desktop/7amanga/Code/ios/projects/Path Tracker/Path Tracker/Pedometer.swift"; sourceTree = "<absolute>"; };
 		F0BD697D21CCDBD000DDAE17 /* WalkedPathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WalkedPathVC.swift; path = "/Users/Abdul./Desktop/7amanga/Code/ios/projects/Path Tracker/Path Tracker/WalkedPathVC.swift"; sourceTree = "<absolute>"; };
 		F0BD698121CCF3DA00DDAE17 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
@@ -69,9 +71,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F03C6D03222BE0A5000454B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0F1F0F621974E84002EE45E /* Assets.xcassets */,
+				F0F1F0FB21974E84002EE45E /* Info.plist */,
+				F0F1F0EF21974E82002EE45E /* AppDelegate.swift */,
+				F0A90AF1222BDD7400FD2B74 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F044C3C521A6504800C52174 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F0569B8021A5298300C4CB71 /* Pedometer.swift */,
+				F040948821A4A87B00779D0C /* Path.swift */,
+				F0BD697B21CCDB3F00DDAE17 /* Pedometer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -79,6 +95,8 @@
 		F044C3C621A6505500C52174 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F0F1F0F821974E84002EE45E /* LaunchScreen.storyboard */,
+				F0F1F0F321974E82002EE45E /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -86,6 +104,10 @@
 		F044C3C721A6505D00C52174 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F0BD697D21CCDBD000DDAE17 /* WalkedPathVC.swift */,
+				F0BD698121CCF3DA00DDAE17 /* SettingVC.swift */,
+				F0F1F0F121974E82002EE45E /* ViewController.swift */,
+				F040948621A2789C00779D0C /* HistoryVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -111,21 +133,10 @@
 		F0F1F0EE21974E82002EE45E /* Path Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				F0BD697D21CCDBD000DDAE17 /* WalkedPathVC.swift */,
-				F0BD698121CCF3DA00DDAE17 /* SettingVC.swift */,
-				F0BD697B21CCDB3F00DDAE17 /* Pedometer.swift */,
-				F0F1F0EF21974E82002EE45E /* AppDelegate.swift */,
-				F0F1F0F121974E82002EE45E /* ViewController.swift */,
-				F040948621A2789C00779D0C /* HistoryVC.swift */,
+				F03C6D03222BE0A5000454B7 /* Resources */,
 				F044C3C521A6504800C52174 /* Model */,
-				F0569B8021A5298300C4CB71 /* Pedometer.swift */,
-				F040948821A4A87B00779D0C /* Path.swift */,
 				F044C3C621A6505500C52174 /* View */,
-				F0F1F0F321974E82002EE45E /* Main.storyboard */,
-				F0F1F0F621974E84002EE45E /* Assets.xcassets */,
 				F044C3C721A6505D00C52174 /* Controller */,
-				F0F1F0F821974E84002EE45E /* LaunchScreen.storyboard */,
-				F0F1F0FB21974E84002EE45E /* Info.plist */,
 			);
 			path = "Path Tracker";
 			sourceTree = "<group>";
@@ -192,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F1F0FA21974E84002EE45E /* LaunchScreen.storyboard in Resources */,
+				F0A90AF2222BDD7400FD2B74 /* GoogleService-Info.plist in Resources */,
 				F0F1F0F721974E84002EE45E /* Assets.xcassets in Resources */,
 				F0F1F0F521974E82002EE45E /* Main.storyboard in Resources */,
 			);
@@ -247,15 +259,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Path Tracker/Pods-Path Tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
